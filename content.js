@@ -1,0 +1,1 @@
+!function(){"use strict";console.log("Hello from content script!");var o={from:"content",to:"background",url:window.location.href};console.log("message to background is",o),chrome.runtime.sendMessage(o)}();
